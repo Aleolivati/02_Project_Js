@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Alegreya', serif;
+}
+
+body .container{
+    background-color: #dad8d8;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px auto;
+    color: rgb(88, 26, 146);
+}
+
+header h1{
+    padding: 12px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 56px;
+}
+
+form {
+    padding: 12px;
+    width: 640px;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+
+form input {
+    font-size: 20px;
+    padding: 8px;
+    margin: auto 3px;
+}
+
+form button {
+    font-size: 20px;
+    padding: 8px;
+    font-weight: 700;
+    cursor: pointer;
+    background: rgb(88, 26, 146);
+    color:#ffffff
+}
+
+table {
+    width: 720px;
+    max-width: 100%;
+    padding-top: 80px;
+    text-align: center;
+}
+
+.table-contact {
+    background-image: url(./images/caderno-fundo.jpg);
+    background-size: cover;
+    min-height: 75vh;
+}
+
+table thead th {
+    font-size: 24px;
+    font-weight: 700;
+    border-bottom: 3px solid rgb(88, 26, 146);
+}
+
+table tbody {
+    font-size: 24px;
+    font-style: italic;
+    color: #000000;
+    vertical-align: text-top;
+}
